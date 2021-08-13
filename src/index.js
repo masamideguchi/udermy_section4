@@ -152,3 +152,37 @@
 
 // const arr7x = [arr4, arr5];
 // console.log(arr7x);
+
+/**
+ * mapやfilterを使った配列の処理
+ */
+// const nameArr = ["Zaggy", "田中", "山田", "まあ", "Mari"];
+// for (let index = 0; index < nameArr.length; index++) {
+//   console.log(nameArr[index]);
+// }
+
+// const nameArr2 = nameArr.map((name) => {
+//   return name;
+// });
+// console.log(nameArr2);
+
+// const name = nameArr.map((n) => {
+//   console.log(n);
+// });
+
+// nameArr.map((name, index) => console.log(`${index + 1}番目は${name}です。`));
+
+// const numArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const newNumArr = numArr.filter((num) => {
+//   return num % 2 === 1;
+// });
+// console.log(newNumArr);
+
+// const newNameArr = nameArr.map((name) => {
+//   if (name === "まあ") {
+//     return name;
+//   } else {
+//     return `${name}さん`;
+//   }
+// });
+// console.log(newNameArr);
